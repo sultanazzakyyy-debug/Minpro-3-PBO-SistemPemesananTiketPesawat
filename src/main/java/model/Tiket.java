@@ -11,7 +11,7 @@ public abstract class Tiket implements Cetak {
 
     public Tiket(Penumpang penumpang, Penerbangan penerbangan) {
         counter++;
-        this.idTiket = "TKT-" + counter; // ID tiket dibuat otomatis saat tiket dipesan
+        this.idTiket = "TKT-" + counter;
         this.penumpang = penumpang;
         setPenerbangan(penerbangan);
         this.statusTiket = "Dipesan";
